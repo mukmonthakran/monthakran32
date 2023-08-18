@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main() {
+    char menu;
+    do{
+        cout << "1. Input salary\n";
+        cout << "2. Salary\n";
+        cout << "3. Report\n";
+        cout << "4. Exit\n";
+        if(menu == '1')
+        {   cout<<"Enter menu : ";
+            cin>>menu ;
+        }else if(salary == '2')
+        {   cout<<"Input salary :";
+            cin>>salary;
+        else if(menu == '3')
+        {   cout<<"Enter menu :";
+            cin>>menu;
+            cout<<"---Exit---\n";
+        }
+    }while(menu != '0');
+    return 0;
+}
